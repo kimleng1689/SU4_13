@@ -1,0 +1,67 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f28c38; /* Orange theme for header */
+    color: white;
+    font-weight: bold;
+}
+tr:hover {
+    background-color: #fff3e0; /* Light orange hover effect */
+}
+.price {
+    color: #2c3e50;
+    font-weight: bold;
+}
+.action-buttons a {
+    padding: 6px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+.btn-show {
+    background-color: #ff6200; /* Orange for Show button */
+    color: white;
+}
+.btn-show:hover {
+    background-color: #e55b00; /* Darker orange on hover */
+}
+.btn-update {
+    background-color: #ffb300; /* Lighter orange for Update button */
+    color: black;
+}
+.btn-update:hover {
+    background-color: #ffa000; /* Slightly darker orange on hover */
+}
+.btn-delete {
+    background-color: #d84315; /* Deep orange for Delete button */
+    color: white;
+}
+.btn-delete:hover {
+    background-color: #bf360c; /* Darker deep orange on hover */
+}
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 8px;
+    }
+    .action-buttons button {
+        padding: 4px 8px;
+        font-size: 12px;
+        margin: 2px;
+    }
+}
